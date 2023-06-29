@@ -1,0 +1,51 @@
+
+div{
+    padding:50px;
+    border:1px solid;
+    text-align: center;
+  }
+
+.c1,.c2{
+  width:30%;
+  border: none;
+
+}
+
+.boton{
+  background-image: url("../images/ataque_de_agua.jpg");
+  width:100px;
+  height: 100px;
+  
+  
+}
+
+.boton1{
+  background-image: url("../images/ataque_de_fuego.jpg");
+  width:100px;
+  height: 100px;
+}
+
+.boton2{
+  background-image: url("../images/ataque_electrico.jpg");
+  width:100px;
+  height: 100px;
+}
+
+.boton3{
+  background-image: url("../images/escudo_de_agua.jpg");
+  width:100px;
+  height: 100px;
+}
+
+.boton4{
+  background-image: url("../images/escudo_de_fuego.jpg");
+  width:100px;
+  height: 100px;
+}
+
+.boton5{
+  background-image: url("../images/escudo_electrico.png");
+  width:100px;
+  height: 100px;
+}
+
