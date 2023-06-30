@@ -48,10 +48,9 @@ function ataqueDeAgua(){
         if(salud_jugador<=0){
             document.getElementById("b1").innerHTML="GAME OVER !INTENTALO DE NUEVO¡"
             desactivarBotones()
-            
-            
+              
         }else{
-            document.getElementById("b1").innerHTML="Ha atacado con agua, se han defendido con agua y su nivel de vida es:"+salud_jugador
+            document.getElementById("b1").innerHTML="Has atacado con ataque de agua, el enemigo se ha defendido con escudo de agua, le has quitado 10 de salud y tu nivel de vida es:"+salud_jugador
         }
         if(salud_enemigo<=0){
             document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -68,7 +67,7 @@ function ataqueDeAgua(){
             desactivarBotones()
             
         }else{
-            document.getElementById("b1").innerHTML="Ha atacado con agua, se han defendido con fuego y su nivel de vida es:"+salud_jugador
+            document.getElementById("b1").innerHTML="Has atacado con ataque de agua, el enemigo se ha defendido con escudo de fuego, le has quitado 20 de salud y tu nivel de vida es:"+salud_jugador
         }
         if(salud_enemigo<=0){
             document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -85,7 +84,7 @@ function ataqueDeAgua(){
             desactivarBotones()
            
         }else{
-            document.getElementById("b1").innerHTML="Ha atacado con agua, se han defendido con electricidad y su nivel de vida es:"+salud_jugador
+            document.getElementById("b1").innerHTML="Has atacado con ataque de agua, el enemigo se ha defendido con escudo electrico, no le has restado salud y tu nivel de vida es:"+salud_jugador
         }
         if(salud_enemigo<=0){
             document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -109,7 +108,7 @@ function ataqueDeFuego(){
                 desactivarBotones()
                
             }else{
-                document.getElementById("b1").innerHTML="Ha atacado con fuego, se han defendido con agua y su nivel de vida es:"+salud_jugador
+                document.getElementById("b1").innerHTML="Has atacado con ataque de fuego, el enemigo se han defendido con escudo de agua, no le has restado salud y tu nivel de vida es:"+salud_jugador
             }
             if(salud_enemigo<=0){
                 document.getElementById("b2").innerHTML="GANASTE!CONGRATULATIONS"
@@ -127,7 +126,7 @@ function ataqueDeFuego(){
                 desactivarBotones()
                 
             }else{
-                document.getElementById("b1").innerHTML="Ha atacado con fuego, se han defendido con fuego y su nivel de vida es:"+salud_jugador
+                document.getElementById("b1").innerHTML="Has atacado con ataque fuego, el enemigo se han defendido con escudo de de fuego, le has quitado 10 de salud y tu nivel de vida es:"+salud_jugador
             }
             if(salud_enemigo<=0){
                   document.getElementById("b2").innerHTML="GANASTE!CONGRATULATIONS"
@@ -144,7 +143,7 @@ function ataqueDeFuego(){
                 desactivarBotones()
                 
             }else{
-                document.getElementById("b1").innerHTML="Ha atacado con fuego, se han defendido con electricidad y su nivel de vida es:"+salud_jugador
+                document.getElementById("b1").innerHTML="Has atacado con ataque de fuego, el enemigo se han defendido con escudo de electricidad, le has quitado 20 de salud y tu nivel de vida es:"+salud_jugador
             }
             if(salud_enemigo<=0){
                 document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -169,7 +168,7 @@ function ataqueDeFuego(){
                     desactivarBotones()
                     
                 }else{
-                    document.getElementById("b1").innerHTML="Ha atacado con electricidad, se han defendido con agua y su nivel de vida es:"+salud_jugador
+                    document.getElementById("b1").innerHTML="Has atacado con ataque electrico, el enemigo se ha defendido con escudo de agua,le has quitado 20 de salud y tu nivel de vida es:"+salud_jugador
                 }if(salud_enemigo<=0){
                     document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
                     desactivarBotones()
@@ -186,7 +185,7 @@ function ataqueDeFuego(){
                     desactivarBotones()
                     
                 }else{
-                    document.getElementById("b1").innerHTML="Ha atacado con electricidad, se han defendido con fuego y su nivel de vida es:"+salud_jugador
+                    document.getElementById("b1").innerHTML="Has atacado con ataque electrico, el enemigo se ha defendido con escudo de fuego, no le has restado salud y tu nivel de vida es:"+salud_jugador
                 }if(salud_enemigo<=0){
                     document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
                     desactivarBotones()
@@ -202,7 +201,7 @@ function ataqueDeFuego(){
                     desactivarBotones()
                    
                 }else{
-                    document.getElementById("b1").innerHTML="Ha atacado con electricidad, se han defendido con electricidad y su nivel de vida es:"+salud_jugador
+                    document.getElementById("b1").innerHTML="Has atacado con ataque electrico,el enemigo se ha defendido con escudo electrico, le has quitado 10 de salud y tu nivel de vida es:"+salud_jugador
                 }
                 if(salud_enemigo<=0){
                     document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -225,7 +224,7 @@ function ataqueDeFuego(){
                         desactivarBotones()
                        
                     }else{
-                        document.getElementById("b1").innerHTML="Lo han atacado con agua, se ha defendido con agua y su nivel de vida es:"+salud_jugador
+                        document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque de agua, te has defendido con escudo de agua, te ha quitado 10 de salud y tu nivel de vida es:"+salud_jugador
                     }if(salud_enemigo<=10){
                         document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
                         desactivarBotones()
@@ -241,7 +240,7 @@ function ataqueDeFuego(){
                         desactivarBotones()
                         
                     }else{
-                        document.getElementById("b1").innerHTML="Lo han atacado con fuego, se ha defendido con agua y su nivel de vida es:"+salud_jugador
+                        document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque de fuego, te has defendido con escudo de agua,no te ha restado salud y tu nivel de vida es:"+salud_jugador
                     }
                     if(salud_enemigo<=0){
                         document.getElementById("b2").innerHTML="GANASTE!CONGRATULATIONS"
@@ -260,7 +259,7 @@ function ataqueDeFuego(){
                         desactivarBotones()
                         
                     }else{
-                        document.getElementById("b1").innerHTML="Lo han atacado con electricidad, se ha defendido con agua y su nivel de vida es:"+salud_jugador
+                        document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque electrico, te has defendido con escudo de agua, te ha quitado 20 de salud y tu nivel de vida es:"+salud_jugador
                     }
                     if(salud_enemigo<=0){
                         document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -286,7 +285,7 @@ function ataqueDeFuego(){
                             desactivarBotones()
                            
                         }else{
-                            document.getElementById("b1").innerHTML="Lo han atacado con agua, se ha defendido con fuego y su nivel de vida es:"+salud_jugador
+                            document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque de agua, te has defendido con escudo de fuego, te ha quitado 20 de salud y tu nivel de vida es:"+salud_jugador
                         }if(salud_enemigo<=0){
                             document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
                             desactivarBotones()
@@ -302,7 +301,7 @@ function ataqueDeFuego(){
                             desactivarBotones()
                             
                         }else{
-                            document.getElementById("b1").innerHTML="Lo han atacado con fuego, se ha defendido con fuego y su nivel de vida es:"+salud_jugador
+                            document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque de fuego, te has defendido con escudo de fuego, te ha quitado 10 de salud y tu nivel de vida es:"+salud_jugador
                         }if(salud_enemigo<=0){
                             document.getElementById("b2").innerHTML="GANASTE!CONGRATULATIONS" 
                             desactivarBotones()
@@ -318,7 +317,7 @@ function ataqueDeFuego(){
                             desactivarBotones()
                             
                         }else{
-                            document.getElementById("b1").innerHTML="Lo han atacado con electricidad, se ha defendido con fuego y su nivel de vida es:"+salud_jugador
+                            document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque electrico, te has defendido con escudo de fuego, no te ha restado salud y tu nivel de vida es:"+salud_jugador
                         }if(salud_enemigo<=0){
                             document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
                             desactivarBotones()
@@ -341,7 +340,7 @@ function ataqueDeFuego(){
                                 desactivarBotones()
                                
                             }else{
-                                document.getElementById("b1").innerHTML="Lo han atacado con agua, se ha defendido con electricidad y su nivel de vida es:"+salud_jugador
+                                document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque de agua, te has defendido con escudo electrico, no te ha restado salud y tu nivel de vida es:"+salud_jugador
                             }
                             if(salud_enemigo<=0){
                                 document.getElementById("b2").innerHTML="GANASTE! CONGRATULATIONS"
@@ -358,7 +357,7 @@ function ataqueDeFuego(){
                                 desactivarBotones()
                                
                             }else{
-                                document.getElementById("b2").innerHTML="Lo han atacado con fuego, se ha defendido con electricidad y su nivel de vida es:"+salud_jugador
+                                document.getElementById("b2").innerHTML="El enemigo te ha atacado con ataque de fuego, te has defendido con escudo electrico, te ha quitado 20 de salud y tu nivel de vida es:"+salud_jugador
                             }
                             if(salud-enemigo<=0){
                                 document.getElementById("b2").innerHTML="GANASTE!CONGRATULATIONS"
@@ -378,7 +377,7 @@ function ataqueDeFuego(){
                                 
 
                             }else{
-                                document.getElementById("b1").innerHTML="Lo han atacado con electricidad, se ha defendido con electricidad y su nivel de vida es:"+salud_jugador
+                                document.getElementById("b1").innerHTML="El enemigo te ha atacado con ataque electrico, te has defendido con escudo electrico, te ha quitado 10 de salud y tu nivel de vida es:"+salud_jugador
                             }
                             if(salud_enemigo<=0){
                                 document.getElementById("b2").innerHTML="GANASTE!CONGRATULATIONS" 
